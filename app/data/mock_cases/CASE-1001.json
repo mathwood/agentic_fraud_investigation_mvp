@@ -1,0 +1,39 @@
+{
+  "case_id": "CASE-1001",
+  "alert_id": "ALERT-9001",
+  "alert_type": "suspicious_cnp_transaction",
+  "alert_created_at": "2026-04-18T10:15:00Z",
+  "transaction": {
+    "transaction_id": "TX-88421",
+    "timestamp": "2026-04-18T10:13:21Z",
+    "amount": 420.50,
+    "currency": "EUR",
+    "channel": "ecommerce",
+    "card_present": false,
+    "merchant_id": "M-2009",
+    "merchant_name": "TechWorld",
+    "merchant_category": "electronics",
+    "merchant_country": "DE",
+    "status": "authorized"
+  },
+  "customer": {
+    "customer_id": "CUST-781",
+    "account_id": "ACC-321",
+    "card_id": "CARD-1122",
+    "customer_since": "2023-06-10",
+    "kyc_level": "full",
+    "segment": "retail"
+  },
+  "context": {
+    "device_id": "DEV-9A2",
+    "device_known": false,
+    "ip_address": "185.24.xx.xx",
+    "ip_country": "NL",
+    "billing_country": "DE",
+    "shipping_country": "DE",
+    "entry_mode": "manual_card_entry",
+    "browser_fingerprint": "BFP-334455",
+    "email": "m***@mail.com",
+    "phone": "+49******22"
+  }
+}

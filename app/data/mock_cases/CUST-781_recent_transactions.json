@@ -1,0 +1,44 @@
+[
+  {
+    "transaction_id": "TX-88415",
+    "timestamp": "2026-04-18T10:04:10Z",
+    "amount": 420.50,
+    "merchant_id": "M-1001",
+    "status": "declined"
+  },
+  {
+    "transaction_id": "TX-88416",
+    "timestamp": "2026-04-18T10:05:30Z",
+    "amount": 420.50,
+    "merchant_id": "M-1002",
+    "status": "declined"
+  },
+  {
+    "transaction_id": "TX-88417",
+    "timestamp": "2026-04-18T10:06:45Z",
+    "amount": 420.50,
+    "merchant_id": "M-1003",
+    "status": "declined"
+  },
+  {
+    "transaction_id": "TX-88418",
+    "timestamp": "2026-04-18T10:08:00Z",
+    "amount": 420.50,
+    "merchant_id": "M-1004",
+    "status": "authorized"
+  },
+  {
+    "transaction_id": "TX-88419",
+    "timestamp": "2026-04-18T10:09:15Z",
+    "amount": 420.50,
+    "merchant_id": "M-1005",
+    "status": "declined"
+  },
+  {
+    "transaction_id": "TX-88421",
+    "timestamp": "2026-04-18T10:13:21Z",
+    "amount": 420.50,
+    "merchant_id": "M-2009",
+    "status": "authorized"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "customer_id": "CUST-781",
+  "lookback_days": 30,
+  "transaction_summary": {
+    "total_transactions": 42,
+    "total_amount": 3180.20,
+    "avg_amount": 75.72,
+    "max_amount": 210.00,
+    "decline_count": 3,
+    "chargeback_count": 0
+  },
+  "behavioral_baseline": {
+    "usual_countries": ["DE"],
+    "usual_merchant_categories": ["groceries", "fashion", "utilities"],
+    "usual_transaction_hours": [8, 9, 12, 18, 19, 20],
+    "usual_amount_range": {
+      "min": 8.50,
+      "max": 180.00
+    },
+    "known_devices": ["DEV-1A1", "DEV-4B9"],
+    "known_ip_countries": ["DE", "DE", "DE"]
+  },
+  "recent_activity": {
+    "transactions_last_24h": 3,
+    "transactions_last_7d": 11,
+    "declines_last_24h": 1,
+    "distinct_merchants_last_24h": 2,
+    "last_successful_transaction_at": "2026-04-18T08:05:00Z",
+    "last_successful_transaction_country": "DE"
+  },
+  "risk_markers": {
+    "previous_fraud_flags": 0,
+    "previous_manual_reviews": 1,
+    "account_takeover_history": false
+  }
+}
